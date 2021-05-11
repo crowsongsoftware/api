@@ -1,0 +1,13 @@
+{
+  "name": "users",
+  "version": "1.0.0",
+  "description": "GraphQl server for CRUD operation on Users",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ../dist/users/app.js",
+    "debug": "SET DEBUG=app && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "crowsong",
+  "license": "ISC"
+}
